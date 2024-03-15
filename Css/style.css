@@ -16,7 +16,17 @@ nav {
     border: 1px solid red;
 }
 .ls-square {
-    width: 500px;
-    height: 500px;
     border: 2px solid black;
+}
+.ls-cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+.ls-blue {
+    background-color: aqua;
 }
